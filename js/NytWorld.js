@@ -1,7 +1,5 @@
-//Init API Key
-let worldKey = configWorld.World_Key;
-
-fetch('https://api.nytimes.com/svc/news/v3/content/nyt/world.json?api-key=' + configWorld.World_Key)
+//Fetch API
+fetch('https://api.nytimes.com/svc/news/v3/content/nyt/world.json?api-key=vO1lz2Z8d0Xi1aCI9BX7viYwTwxvkAr2')
 .then(response => response.json())
 .then(data => {
   console.log(data.results) 
