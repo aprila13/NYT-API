@@ -1,10 +1,10 @@
-//Init API KEY
-let businessKey = configBusiness.Business_Key;
+//Fetch API
 
-fetch('https://api.nytimes.com/svc/news/v3/content/nyt/business.json?api-key=' + configBusiness.Business_Key)
+fetch('https://api.nytimes.com/svc/news/v3/content/nyt/business.json?api-key=fHwWNJ9R6W3VwSJKwo1eydixTG202GAm')
 .then(response => response.json())
 .then(data => {
   console.log(data.results) 
+
 
 
  //Article 1
