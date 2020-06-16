@@ -1,0 +1,20 @@
+#topBtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    outline: none; 
+    padding: 5px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    color: #ffffff !important;
+    background-color: #3197d6 !important;
+  }
+
+.headline {
+  height: 55vh;
+}
+  
+a {
+  color: black;
+}
+
