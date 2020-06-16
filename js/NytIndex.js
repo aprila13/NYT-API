@@ -1,7 +1,4 @@
-//Init API KEY
-let indexKey = configIndex.Index_Key;
-
-fetch('https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=' + configIndex.Index_Key)
+fetch('https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GyI8UEg0kuvotO7d8ZZJfh0lkqayap1r')
 .then(response => response.json())
 .then(data => {
   console.log(data.results)
